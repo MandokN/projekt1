@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap');
+
+html {
+  font-family: "Magra", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.nav {
+  background-color: rgb(119, 176, 246);
+  width: 100;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vh 0 5vh;
+}
+
+.nav_logo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.logo {
+  height: 70%;
+}
+
+h1 {
+  margin: 0;
+}
+
+.nav_choose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav_choose a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav_choose a:hover {
+  transition: 0.25s;
+  color: rgb(117, 117, 117);
+}
+
+.encourage {
+  width: 100%;
+  height: 500px;
+  background-image: url(./assets/encourage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.encourage_text {
+  width: 60ch;
+  text-align: center;
+  font-weight: bolder;  
+  font-size: 40px;
+  color: rgb(30, 0, 255);
+  font-style: italic;
+}
+
+
+.main {
+  width: 100%;
+  height: 70.4vh;
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 100px 0;
+}
+
+.main_block {
+  background-color: white;
+  width: 80%;
+  height: 80%;
+  border: 3px solid rgb(107, 106, 106);
+  border-radius: 25px; 
+
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+
+}
+
+.main_block--how {
+  font-size: 20px;
+  width: 150ch;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main_block--count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.main_block--button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.btn {
+  background-color: rgb(119, 176, 246);
+  height: 50px;
+  font-size: medium;
+  font-weight: bolder;
+  border-radius: 20px;
+  width: 100px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(127, 159, 198);
+  transition: 0.25s;
+}
+
+
+
+
+
+
